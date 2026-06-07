@@ -112,7 +112,7 @@ Struktur Data:
 
 Cara Menjalankan Program:
 1. Pastikan **Java Development Kit (JDK)** sudah terpasang.  
-2. Simpan file dengan nama `UTSSDA_StackPasien.java`.  
+2. Simpan file dengan nama `UTSSDA_RiwayatPasien.java`.  
 3. Compile program:  
    ```bash
    javac UTSSDA_StackPasien.java
