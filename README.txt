@@ -2,7 +2,7 @@ Ujian Tengah Semester (UTS)
 ===========================================================================================================
 
 Mata Kuliah		:	Struktur Data dan Algoritma
-Dosen Pengampu	:	Alun Sujjada, S.Kom., M.Tengah
+Dosen Pengampu	:	Alun Sujjada, S.Kom., M.T
 
 ===========================================================================================================
 
