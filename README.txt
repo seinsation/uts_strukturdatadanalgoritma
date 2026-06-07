@@ -11,8 +11,9 @@ NIM				:	250401010388
 Kelas			:	IF207
 
 ===========================================================================================================
+===========================================================================================================
 
-Soal Ujian Tengah Semester
+Soal Ujian Tengah Semester Nomor 2 (Array)
 Representasikan data berikut kedalam bentuk Program JAVA menggunakan array:
 Menu makanan :
 *	Soto : 15.000
@@ -53,6 +54,7 @@ Cara Menjalankan Program:
    javac UTSSDA_MenuMakanan.java
    
 ===========================================================================================================
+
 Contoh Input dan Output
 
 Case 1 (Pesanan Valid)
@@ -83,5 +85,61 @@ Silakan simak pilihan menu kami berikut ini :
   --------------------------------
 
 ===========================================================================================================
+===========================================================================================================
+Soal Ujian Tengah Semester Nomor 3 (Stack)
 
-Terimakasih.
+Buatlah program menggunakan bahasa JAVA untuk melakukan pengecekan 2 buah stack memiliki nilai
+yang Sama atau tidak.
+
+===========================================================================================================
+
+Deskripsi Program
+
+Program ini dibuat untuk memenuhi soal UTS mata kuliah Struktur Data dan Algoritma dengan materi Stack.  
+Data riwayat pasien direpresentasikan menggunakan struktur data Stack, dimana setiap tindakan medis pasien
+disimpan secara LIFO (Last In First Out).
+
+Fitur utama:
+- Menyimpan riwayat tindakan medis pasien menggunakan Stack.
+- Membandingkan riwayat antara beberapa pasien (misalnya pasien 1–5).
+- Menampilkan apakah riwayat pasien Sama atau Berbeda.
+
+Struktur Data:
+- `Stack<String>` → menyimpan riwayat tindakan pasien.
+- Fungsi `isEqual()` → membandingkan dua stack apakah memiliki isi yang Sama.
+- Riwayat pasien diisi dengan tindakan medis seperti "Registrasi", "Cek Tekanan Darah", 
+  "Pemeriksaan Dokter", dll.
+
+Cara Menjalankan Program:
+1. Pastikan **Java Development Kit (JDK)** sudah terpasang.  
+2. Simpan file dengan nama `UTSSDA_StackPasien.java`.  
+3. Compile program:  
+   ```bash
+   javac UTSSDA_StackPasien.java
+   java UTSSDA_StackPasien
+   
+===========================================================================================================
+
+Contoh Output
+
+Case 1 (Pasien 1 vs Pasien 2)
+Output:
+Pasien 1 vs Pasien 2: Sama
+
+Case 2 (Pasien 1 vs Pasien 3)
+Output:
+Pasien 1 vs Pasien 3: Berbeda
+
+Case 3 (Pasien 2 vs Pasien 4)
+Output:
+Pasien 2 vs Pasien 4: Berbeda
+
+Case 4 (Pasien 3 vs Pasien 5)
+Output:
+Pasien 3 vs Pasien 5: Berbeda
+
+Case 5 (Pasien 4 vs Pasien 5)
+Output:
+Pasien 4 vs Pasien 5: Berbeda
+
+===========================================================================================================
